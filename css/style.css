@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cuprum&family=Ubuntu&display=swap');
 
 
 *, *:before, *:after {
@@ -6,7 +6,6 @@
   margin: 0;
   border: 0;
   box-sizing: border-box;
-  font-family: 'Caveat', cursive;
 }
 
 html, body {
@@ -18,7 +17,8 @@ html, body {
 }
 
 p {
-  margin: 15px 0px 20px 0px; 
+  margin: 15px 0px 20px 0px;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 a {
@@ -59,10 +59,12 @@ nav {
   justify-content: space-around;
   height: 100vh;
   background: #CC0000;
+  font-family: 'Cuprum', sans-serif;
+
 }
 
 section {
-  padding-left: 150pt;
+  padding-left: 160pt;
   position: absolute;
   top: 0;
   height: 100vh;
@@ -79,7 +81,8 @@ section h1 {
   font-size: 50px;
   /*text-transform: uppercase;*/
   opacity: 0;
-  padding-top: 0pt; 
+  padding-top: 0pt;
+  font-family: 'Cuprum', sans-serif;
 }
 
 section:target {
@@ -102,7 +105,7 @@ section:target h1 {
   padding: 50px 15px;
   background: #191919;
   min-height: 100vh;
-  font-family: Montserrat, sans-serif;  
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .title {
