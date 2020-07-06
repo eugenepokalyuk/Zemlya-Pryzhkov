@@ -17,6 +17,10 @@ html, body {
   overflow: hidden;
 }
 
+p {
+  margin: 15px 0px 20px 0px; 
+}
+
 a {
   text-decoration: none;
   color: #CC0000;
@@ -196,8 +200,7 @@ section:target h1 {
 }
 
 .button {
-  width: 100px;
-  padding: 10px;
+  padding: 7px;
   background-color: red;
   border-radius: 5pt;
   color: #fff;
@@ -207,7 +210,8 @@ section:target h1 {
   color: black;
 }
 
-p {
-  margin: 15px 0px 20px 0px;
-  
+.cards__image .star {
+  width: 25px;
+  height: 25px;
+  background-repeat: repeat;
 }
