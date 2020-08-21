@@ -21,31 +21,31 @@
 					<nav class="header__menu">
 						<ul class="header__list">
 							<li>
-								<a class="header__link">Главная</a>
+								<a class="header__link" href="#Home">Главная</a>
 							</li>
 
 							<li>
-								<a class="header__link">Рекомендации</a>
+								<a class="header__link" href="#Recommendations">Рекомендации</a>
 							</li>
 
 							<li>
-								<a class="header__link">О компании</a>
+								<a class="header__link" href="#About">О компании</a>
 							</li>
 
 							<li>
-								<a class="header__link">Галерея</a>
+								<a class="header__link" href="#Gallery">Галерея</a>
 							</li>
 
 							<li>
-								<a class="header__link">Контакты</a>
+								<a class="header__link" href="#Contacts">Контакты</a>
 							</li>
 
 							<li>
-								<a class="header__link">Позвонить</a>
+								<a class="header__link" href="tel:89538009996">Позвонить</a>
 							</li>
 
 							<li>
-								<a class="header__link">Проложить путь</a>
+								<a class="header__link" href="https://www.google.com/maps/dir//%D0%97%D0%B5%D0%BC%D0%BB%D1%8F+%D0%BF%D1%80%D1%8B%D0%B6%D0%BA%D0%BE%D0%B2,+Rope+jumping+project+%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D0%B8%D0%B1%D0%B8%D1%80%D1%81%D0%BA,+%D0%BF%D1%80%D1%8B%D0%B6%D0%BA%D0%B8+%D1%81+%D0%B2%D0%B5%D1%80%D0%B5%D0%B2%D0%BA%D0%BE%D0%B9/data=!4m8!4m7!1m0!1m5!1m1!1s0x42dfe666df6dac33:0xfa9e0eb33df76077!2m2!1d82.9111415!2d54.994493299999995">Проложить путь</a>
 							</li>
 						</ul>
 					</nav>
@@ -56,7 +56,7 @@
 		<div class="content">
 			<div class="container">
 				<div class="container__text">
-					<section id="first">
+					<section id="Home">
 						<h1>ACT NOW | Действуй сейчас</h1>
 						<div class="text__image">
 							<figure>
@@ -77,7 +77,7 @@
 						</div>
 					 </section>
 
-					 <section id="second">
+					 <section id="Recommendations">
 						<article>
 						<h1>Рекомендации</h1>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -92,7 +92,7 @@
 						</div>
 					 </section>
 
-					 <section id="third">
+					 <section id="About">
 						<article>
 						<h1>"Земля прыжков Обь" прыжки с веревкой</h1>
 						<p>"Земля прыжков" - это большая и дружная семья которая есть более чем в двадцати городах России и трех странах мира.</p>
@@ -107,7 +107,7 @@
 						</div>
 					</section>
 
-					<section>
+					<section id="Gallery">
 						<h1>Галерея</h1>
 						<article>
 							<h2>Фотографии</h1>
@@ -212,24 +212,41 @@
 						</article>
 					</section>
 
-					<section>
-						<article>
-							<h2>Контакты</h2>
-							<a href="#">Позвонить</a>
-						</article>
-						<article>
-							<h2>Адрес</h2>
-							<a href="#">Проложить маршрут</a>
-							
-						</article>
-						<article>
-							<h2>Часы работы</h2>
-							<ul>
-								<li>Пн. - Пт.: Закрыто</li>
-								<li>Сб.: 13:00 - 17:00</li>
-								<li>Вс.: 13:00 - 17:00</li>
-							</ul>
-						</article>
+					<section id="Contacts">
+						<div class="cards__row">
+							<div class="cards__column">
+								<div class="cards__item">
+									<div class="cards__image">
+										<h2>Контакты</h2>
+										<a href="tel:89538009996">Позвонить</a>
+										<p>8(953)800-99-96</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="cards__column">
+								<div class="cards__item">
+									<div class="cards__image">
+										<h2>Адрес</h2>
+										<a href="https://www.google.com/maps/dir//%D0%97%D0%B5%D0%BC%D0%BB%D1%8F+%D0%BF%D1%80%D1%8B%D0%B6%D0%BA%D0%BE%D0%B2,+Rope+jumping+project+%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D0%B8%D0%B1%D0%B8%D1%80%D1%81%D0%BA,+%D0%BF%D1%80%D1%8B%D0%B6%D0%BA%D0%B8+%D1%81+%D0%B2%D0%B5%D1%80%D0%B5%D0%B2%D0%BA%D0%BE%D0%B9/data=!4m8!4m7!1m0!1m5!1m1!1s0x42dfe666df6dac33:0xfa9e0eb33df76077!2m2!1d82.9111415!2d54.994493299999995" class="button" target="_blank">Проложить маршрут</a>
+										<p>Горский микрорайон 1/1, Новосибирск, Новосибирская область, Россия, 630073</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="cards__column">
+								<div class="cards__item">
+									<div class="cards__image">
+										<h2>Часы работы</h2>
+										<ul>
+											<li>Пн. - Пт.: Закрыто</li>
+											<li>Сб.: 13:00 - 17:00</li>
+											<li>Вс.: 13:00 - 17:00</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
 					</section>
 				</div>
 			</div>
